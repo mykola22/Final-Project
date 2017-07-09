@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Magic timer</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+		<header>
+			<h1>Magic timer for a time tracking</h1>
+		</header>
+		
+		<div id="block1" class="subtitle">Your <span class="bold dobleSize">boss wants</span> to know what are you doing at work?</div>
+		
+		<div id="block2" class="subtitle">You don't know how to <span class="bold dobleSize">tell him</span> how <span class="bold dobleSize">busy you are?</span></div>
+	
+		<div id="block3">
+		<p id="dbf">Don't be afraid!</p>
+			<div id="spisok">
+				<div>
+					<p id="text1">You need to use the <b>Magic Timer</b>!</p>
+					<p id="text2">Just click on the <b>Start</b> button when you start working and show your results to your boss at the end of the day!</p>
+					<p id="text3">This is simple!</p>
+				</div>
+				<div id="timerWraper">
+					<input type="button" value="Reset" id="reset">
+					<input type="text" readonly id="inpTimer" value="00:00:00">
+					<input type="text" id="msg" placeholder="What are you working on?">
+					<input type="button" value="Start" id="start">
+					<input type="button" value="Pause" id="stop">
+					<input type="button" value="Report" id="send">
+					<ol id="result"></ol>
+				</div>
+			</div>
+		</div>
+</body>
+<script src="timer.js" type="text/javascript">
+
+</script>
+</html>

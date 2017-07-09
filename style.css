@@ -1,0 +1,71 @@
+/*selector {
+	rule: value;
+} */
+
+html {
+	font-family: "Tahoma", sans-serif;
+}
+
+html body {
+	/*background-color: #59d7f2;*/
+	background-image: url("media/bg2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header h1 {
+	text-align: center;
+	color: #434a5a;
+}
+
+.subtitle {
+	padding-left: 117px;
+	line-height: 35px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.dobleSize {
+	font-size: 1.25em;
+}
+
+#dbf {
+	text-align: center;
+	font-size: 3em;
+	font-family: "Georgia", serif;
+	font-style: italic;
+	color: #434a5a;
+	margin: 1em 0 0.5em 0;
+}
+
+#spisok {
+width: 50%;
+margin: 0 auto;
+}
+
+#spisok p {
+	margin: 0;
+}
+
+#timerWraper, #result {
+	margin-top: 1em;
+}
+
+#result li {
+	margin: 0.5em ;
+}
+
+/*
+div (tut element) {
+	background-color: #686868;
+}
+
+#block1 (tut idishnik) {
+	background-color: yellow; 
+}
+
+.bgGreen (tut class) {
+	background-color: green;
+}*/
